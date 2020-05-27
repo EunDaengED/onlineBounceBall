@@ -1,0 +1,17 @@
+{
+  "name": "onlinebounceball",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "dependencies": {
+    "ws": "^6.1.2",
+    "mime-types": "^2.1.21"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "npm install ws && npm install mime-types && node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
