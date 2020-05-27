@@ -4,7 +4,7 @@ var URL=require('url');
 
 var wss=require("./websocketserver.js").wss;
 
-var MainServerPort=80;
+var MainServerPort = process.env.PORT || 8080;
 
 var server=require('http').createServer(function(req,res){
 	req.url=decodeURI(req.url);
