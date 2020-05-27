@@ -1,6 +1,6 @@
 var ctx=canvas.getContext('2d');
 
-var ws=new WebSocket("ws://"+location.host+"/$socket");
+var ws=new WebSocket("wss://"+location.host+"/$socket");
 
 var drawfunction=function(){};
 
